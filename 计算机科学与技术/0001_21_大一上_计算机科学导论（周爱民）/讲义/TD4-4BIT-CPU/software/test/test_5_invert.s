@@ -1,9 +1,0 @@
-#输出input的取反
-MOV A, 0xF
-IN B
-ADD A, 0x1
-ADD B, 0x1
-JZ 0x2
-MOV B, A
-OUT B
-JMP 0x7
